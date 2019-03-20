@@ -63,6 +63,7 @@
 ##### s = (width)x(height)
 ##### t = crop / cover
 ##### q = (number) <- quality
+##### f = webp (optional) 
 
 ## ref
 ### Jinho Hong
