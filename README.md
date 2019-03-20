@@ -68,7 +68,7 @@
 ##### q = (number) <- quality
 ##### f = webp (optional) 
 
-## ref
+## 4. ref
 ### Jinho Hong
 https://engineering.huiseoul.com/lambda-%ED%95%9C%EA%B0%9C%EB%A1%9C-%EB%A7%8C%EB%93%9C%EB%8A%94-on-demand-image-resizing-d48167cc1c31
 
