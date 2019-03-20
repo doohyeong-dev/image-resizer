@@ -19,7 +19,7 @@
   s3:PutObjectAcl  
 
 ##### Trust Relationship
-  {
+  `{
      "Version": "2012-10-17",
      "Statement": [
         {
@@ -33,7 +33,7 @@
            "Action": "sts:AssumeRole"
         }
      ]
-  }
+  }`
   
 ### CloudFront
 
