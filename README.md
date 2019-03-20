@@ -68,7 +68,7 @@
 ##### q = (number) <- quality
 ##### f = webp (optional) 
 
-##### ref (sharp) = https://sharp.dimens.io/en/stable/api-resize/
+##### ref. sharp = https://sharp.dimens.io/en/stable/api-resize/
 
 ## 4. ref
 ### Jinho Hong
