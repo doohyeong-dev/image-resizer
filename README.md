@@ -1,6 +1,6 @@
 # Lambda-@edge Image-resizer nodejs8.0
 
-## prerequisite
+## 1. prerequisite
 
 ### Lambda
   region = us-east-1  
@@ -39,16 +39,16 @@
   
 ### CloudFront
 
-#####Origin Domain Name: S3 Bucket  
-#####Restrict Bucket Access: Yes  
-#####Origin Access Identity: Create a New Identity 
-#####Grant Read Permissions on Bucket: Yes, Update Bucket Policy  
-#####Query String Forwarding and Caching: Forward all, cache based on whitelist  
-#####Query String Whitelist: s,t,d.   
-#####Compress Objects Automatically: Yes  
+#####Origin Domain Name: S3 Bucket
+#####Restrict Bucket Access: Yes
+#####Origin Access Identity: Create a New Identity
+#####Grant Read Permissions on Bucket: Yes, Update Bucket Policy
+#####Query String Forwarding and Caching: Forward all, cache based on whitelist
+#####Query String Whitelist: s,t,d.
+#####Compress Objects Automatically: Yes
 
 
-### Installation
+### 2. Installation
 
 ##### 1. git clone https://github.com/doohyeong-dev/image-resizer.git
 ##### 2. npm i
@@ -60,7 +60,7 @@
 ##### 6. create and publish lambda version 
 ##### 7. cloudFront - Behaviors - Lambda Function Associations - Event Type Origin Response + copy and pase lambda arn
 
-### Usage
+### 3. Usage
 
 ##### cloudfrontURL/path?s=
 ##### s = (width)x(height)
