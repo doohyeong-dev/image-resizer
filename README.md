@@ -3,7 +3,7 @@
 ## prerequisite
 
 ### Lambda
-  region = us-east-1
+  region = us-east-1 <br />
   language = nodejs 8.0
 
 ### IAM (create IAM Role)
