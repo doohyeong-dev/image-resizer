@@ -64,9 +64,11 @@
 
 ##### cloudfrontURL/path?s=
 ##### s = (width)x(height)
-##### t = crop / cover
+##### t = (type) crop / cover / fill / inside / outside
 ##### q = (number) <- quality
 ##### f = webp (optional) 
+
+##### ref (sharp) = https://sharp.dimens.io/en/stable/api-resize/
 
 ## 4. ref
 ### Jinho Hong
