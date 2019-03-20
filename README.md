@@ -9,13 +9,12 @@
 ### IAM (create IAM Role)
 
 ##### Permissions 
-  lambda:GetFunction <br />
-  lambda:EnableReplication <br />
-  iam:CreateServiceLinkedRole <br />
-  cloudfront:UpdateDistribution or cloudfront:CreateDistribution <br />
-  s3:GetObject <br />
-  s3:PutObject <br />
-  s3:PutObjectAcl <br />
+  lambda:GetFunction   
+  lambda:EnableReplication  
+  iam:CreateServiceLinkedRole   
+  cloudfront:UpdateDistribution or cloudfront:CreateDistribution  
+  s3:PutObject   
+  s3:PutObjectAcl  
 
 ##### Trust Relationship
   {
@@ -36,13 +35,13 @@
   
 ### CloudFront
 
-#####Origin Domain Name: S3 Bucket <br />
-#####Restrict Bucket Access: Yes <br />
-#####Origin Access Identity: Create a New Identity <br />
-#####Grant Read Permissions on Bucket: Yes, Update Bucket Policy <br />
-#####Query String Forwarding and Caching: Forward all, cache based on whitelist <br />
-#####Query String Whitelist: s,t,d. <br />
-#####Compress Objects Automatically: Yes <br />
+#####Origin Domain Name: S3 Bucket  
+#####Restrict Bucket Access: Yes  
+#####Origin Access Identity: Create a New Identity 
+#####Grant Read Permissions on Bucket: Yes, Update Bucket Policy  
+#####Query String Forwarding and Caching: Forward all, cache based on whitelist  
+#####Query String Whitelist: s,t,d.   
+#####Compress Objects Automatically: Yes  
 
 
 ### Installation
