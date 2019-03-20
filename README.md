@@ -4,7 +4,6 @@
 
 ### Lambda
   region = us-east-1
-  
   language = nodejs 8.0
 
 ### IAM (create IAM Role)
