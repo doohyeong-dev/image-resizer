@@ -2,11 +2,11 @@
 
 ## 1. prerequisite
 
-### Lambda
+### 1-1. Lambda
   region = us-east-1  
   language = nodejs 8.0
 
-### IAM (create IAM Role)
+### 1-2. IAM (create IAM Role)
 
 ##### Permissions 
   lambda:GetFunction   
@@ -37,7 +37,7 @@
   }
   ```
   
-### CloudFront
+### 1-3. CloudFront
 
 #####Origin Domain Name: S3 Bucket
 #####Restrict Bucket Access: Yes
