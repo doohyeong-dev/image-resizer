@@ -12,8 +12,10 @@
   lambda:GetFunction   
   lambda:EnableReplication  
   iam:CreateServiceLinkedRole   
-  cloudfront:UpdateDistribution or cloudfront:CreateDistribution  
-  s3:PutObject   
+  cloudfront:UpdateDistribution  
+  cloudfront:CreateDistribution  
+  s3:GetObject  
+  s3:PutObject  
   s3:PutObjectAcl  
 
 ##### Trust Relationship
